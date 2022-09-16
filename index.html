@@ -390,10 +390,10 @@
       </div>
 
       <div class="subscription-group">
-        <p class="footer-form-title">Підпишіться на розсилку</p>
+        <label for="email" class="footer-form-title">Підпишіться на розсилку</label>
         <form class="footer-form">
 
-          <input class="footer-form-input" type="text" name="email" placeholder="E-mail">
+          <input class="footer-form-input" type="text" name="email" placeholder="E-mail" id="email" >
 
           <div class="footer-form-btn">
             <button class="footer-btn" type="submit">
@@ -446,8 +446,8 @@
         <textarea class="modal-textarea" name="feedback" id="feedback" rows="5" placeholder="Введіть текст"></textarea>
 
         <div class="agreement-wrapper">
-          <label class="modal-form-agreement">
-            <input class="form-checkbox visually-hidden" type="checkbox" name="user-agreement" />
+          <label for="agreement" class="modal-form-agreement">
+            <input class="form-checkbox visually-hidden" type="checkbox" name="user-agreement" id="agreement"/>
             Погоджуюся з розсилкою та приймаю&nbsp;
             <a href="" class="agreement-conditions-link">Умови договору</a>
             <svg class="checkbox-icon" width="16" height="15">
